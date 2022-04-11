@@ -24,5 +24,3 @@ print("The quotient when",a ,"is divided by",b,"is :",int(a/b))
 print("The remainder when",a,"is divided by", b,"is:", a%b)
 print("The result of log10",a,"is : %.2f" %math.log10(a))
 print("The result of", a,"^",b, "is :", a**b)
-
-
