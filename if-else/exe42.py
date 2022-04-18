@@ -18,7 +18,7 @@ if freq in list(note_freq.values()):
     print((list(note_freq.keys())[list(note_freq.values()).index(freq)]))
 else:
     nearest_val = min(list(note_freq.values()), key=lambda x: abs(x-freq))
-    if nearest_val in list(note_freq.values()) and nearest_val-1 <= freq <= nearest_val+1:
+    if nearest_val-1 <= freq <= nearest_val+1:
         print((list(note_freq.keys())[list(note_freq.values()).index(nearest_val)]))
     else:
         print("The frequency does not correspond to a known note")
